@@ -1,6 +1,7 @@
+import '../helloWorld.css'
 const HelloWorld = () => {
     return (
-     <h1>HELLO WORLD</h1>
+     <h1 className='tituloHelloWorld'>HELLO WORLD</h1>
     );
 };
 
