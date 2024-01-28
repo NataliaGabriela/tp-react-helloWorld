@@ -1,7 +1,7 @@
 import '../helloWorld.css'
-const HelloWorld = () => {
+const HelloWorld = (props) => {
     return (
-     <h1 className='tituloHelloWorld'>HELLO WORLD</h1>
+     <h1 className='tituloHelloWorld'>HELLO {props.saludo}</h1>
     );
 };
 
