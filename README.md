@@ -5,7 +5,7 @@ TP REACT ROLLINGCODDE
 Ejercicios de introducción a React
 
 Demo
-Deply del proyecto https://dev--rollingstore-team4.netlify.app/
+Deply del proyecto 
 
 Librerias 📚
 Bootstrap v5.3.2
