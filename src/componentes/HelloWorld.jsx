@@ -1,11 +1,16 @@
 import Button from 'react-bootstrap/Button';
+import { useState } from "react";
+const HelloWorld = (props) => {
+  const [mensaje, setMensaje] = useState("");
+    /*const cambiarMensaje = ()=>{
+        mensaje = '(from changed state)'
+        setMensaje(mensaje);
+      }*/
 
-const HelloWorld = (props,cambiarMensaje) => {
- 
   return (
     <section>
-      <h1 className="tituloHelloWorld">HELLO {props.saludo}</h1>
-      <Button variant="info" className="mx-2" onClick={()=>cambiarMensaje()}>Click me</Button>
+      <h1 className="tituloHelloWorld">HELLO {props.saludo} {mensaje}</h1>
+      <Button variant="info" className="mx-2" onClick={()=>setMensaje('(from changed state)')}>Click me</Button>
     </section>
   );
 };
