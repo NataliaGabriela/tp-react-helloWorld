@@ -2,7 +2,7 @@
 
 TP REACT ROLLINGCODDE
 
-Ejercicios de introducción a React
+Ejercicios de introducción a React: Hello World
 
 Demo
 Deply del proyecto https://hello-world-tp-react.netlify.app/
